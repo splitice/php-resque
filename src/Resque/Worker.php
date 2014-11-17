@@ -326,6 +326,7 @@ class Worker implements WorkerInterface, LoggerAwareInterface
                     break;
                 }
 
+                sleep(1);
                 continue;
             }
 
